@@ -1,4 +1,8 @@
-# Fabric Example Mod
+# Infinity Mending Bow Mod
+
+## Install
+
+Download mod on [Modrinth](https://modrinth.com/mod/infinitymendingbow/version) and then copy the .jar file to your *mods* folder
 
 ## Setup
 
@@ -6,4 +10,4 @@ For setup instructions please see the [fabric wiki page](https://fabricmc.net/wi
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+MIt
