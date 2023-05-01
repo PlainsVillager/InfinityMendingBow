@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "infinitymendingbow",
+  "version": "1.0",
+
+  "name": "§4InfinityMendingBow",
+  "description": "This mod is very §lSIMPLE§r.\n§bMake your bow can be enchanted mending and infinity!",
+  "authors": [
+    "PlainsVillager"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/infinitymendingbow",
+    "sources": "https://github.com/PlainsVillager/InfinityMendingBow"
+  },
+
+  "license": "MIT",
+  "icon": "assets/infinitymendingbow/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.plainsvillager.infinitymendingbow.InfinityMendingBow"
+    ]
+  },
+  "mixins": [
+    "infinitymendingbow.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": ["1.19.4", "1.19.3", "1.19.2", "1.19.1", "1.19"],
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
