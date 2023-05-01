@@ -10,6 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(InfinityEnchantment.class)
 public class InfinityEnchantmentMixin
 {
+    // The core code of this mod
     @Inject(method = "canAccept", at = @At("HEAD"), cancellable = true)
     public void canAccept(Enchantment other, CallbackInfoReturnable<Boolean> cir) {
         cir.setReturnValue(true);
